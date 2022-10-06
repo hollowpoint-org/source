@@ -1,0 +1,26 @@
+{
+  "name": "source",
+  "version": "0.1.0",
+  "description": "An opinionated workflow.",
+  "main": "./lib/source.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ./lib/source.js",
+    "build": "tsc ./src/fuse.ts --outFile ./lib/source.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --silent --coverage --testPathPattern=./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollowpoint-org/source.git"
+  },
+  "author": "Ryan Brooks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://thesource.fm/?channel=support"
+  },
+  "homepage": "https://thesource.fm",
+  "devDependencies": {
+    "@types/node": "^18.8.2",
+    "jest": "^29.0.3"
+  }
+}

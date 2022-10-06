@@ -1,0 +1,53 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "npm install",
+            "detail": "Install all Node modules required for this project.",
+            "type": "shell",
+            "command": "npm install"
+        },
+        {
+            "label": "npm start",
+            "detail": "Start the project in Node.",
+            "type": "shell",
+            "command": "npm start"
+        },
+        {
+            "label": "npm build",
+            "detail": "Build the project in Node.",
+            "type": "shell",
+            "command": "npm run build"
+        },
+        {
+            "label": "npm run test",
+            "detail": "Run Jest tests.",
+            "type": "shell",
+            "command": "npm run test"
+        },
+        {
+            "label": "npm outdated",
+            "detail": "Check for outdated npm modules.",
+            "type": "shell",
+            "command": "npm outdated"
+        },
+        {
+            "label": "terraform init",
+            "detail": "Initialize Terraform locally.",
+            "type": "shell",
+            "command": "terraform init --upgrade"
+        },
+        {
+            "label": "terraform apply",
+            "detail": "Generate a Terraform plan, and attempt to apply it.",
+            "type": "shell",
+            "command": "terraform apply -auto-approve"
+        },
+        {
+            "label": "terraform destroy",
+            "detail": "Destroy all infrastructure.",
+            "type": "shell",
+            "command": "terraform destroy -auto-approve"
+        }
+    ]
+}
